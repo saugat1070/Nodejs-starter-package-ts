@@ -2,7 +2,7 @@
 	"name": "paymentservice",
 	"version": "1.0.0",
 	"description": "",
-	"main": "main.js",
+	"main": "dist/server.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "tsc",
@@ -12,7 +12,7 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"type": "commonjs",
+	"type": "module",
 	"dependencies": {
 		"dotenv": "^17.4.2",
 		"express": "^5.2.1",
