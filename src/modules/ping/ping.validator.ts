@@ -5,5 +5,3 @@ export const pingRequestSchema = z.object({
 });
 
 export type pingDto = z.infer<typeof pingRequestSchema>;
-
-export default pingDto;

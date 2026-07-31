@@ -1,6 +1,6 @@
-import { app } from "./main";
-import { Env } from "./config/env.config";
-import { logger } from "./config/logger.config";
+import { app } from "./main.js";
+import { Env } from "./config/env.config.js";
+import { logger } from "./config/logger.config.js";
 const loadRequiredModules = async ()=>{}
 const startServer = async ()=>{
     const PORT = Env.PORT;

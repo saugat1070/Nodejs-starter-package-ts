@@ -1,4 +1,4 @@
-import PingRepository from "./ping.repository";
+import PingRepository from "./ping.repository.js";
 
 export class PingService {
     private pingRepository: PingRepository;

@@ -1,4 +1,4 @@
-import { IPagination } from "../../@types/interface/pagination.interface";
+import { IPagination } from "../../@types/interface/pagination.interface.js";
 
 export const generatePaginationMeta = (
   totalItems: number,

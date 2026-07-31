@@ -1,5 +1,5 @@
 import { Response } from "express";
-import { IPagination } from "../../@types/interface/pagination.interface";
+import { IPagination } from "../../@types/interface/pagination.interface.js";
 
 export function JsonResponse(
     res: Response,

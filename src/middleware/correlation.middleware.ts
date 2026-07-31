@@ -1,5 +1,5 @@
 import {NextFunction, Request,Response, RequestHandler} from "express";
-import { asyncLocalStorage } from "../utils/helper/request.helper";
+import { asyncLocalStorage } from "../utils/helper/request.helper.js";
 import {v4 as uuidv4} from "uuid";
 
 export const attachCorrelationId: RequestHandler = (req:Request,res:Response,next:NextFunction) => {

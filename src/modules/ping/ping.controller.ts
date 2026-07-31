@@ -1,6 +1,6 @@
 import { Request,Response } from "express";
-import { JsonResponse } from "../../utils/helper/response.helper";
-import { PingService } from "./ping.service";
+import { JsonResponse } from "../../utils/helper/response.helper.js";
+import { PingService } from "./ping.service.js";
 
 class PingController {
     private pingService: PingService;

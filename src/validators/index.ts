@@ -1,6 +1,6 @@
-import z, { success } from "zod";
-import { Request, Response,NextFunction } from "express";
-import { logger } from "../config/logger.config";
+import { z } from "zod";
+import type { Request, Response, NextFunction } from "express";
+import { logger } from "../config/logger.config.js";
 /* 
 - @param schema: zod schema to validate the request body
 - @returns: middleware function to validate the request body against the provided schema
